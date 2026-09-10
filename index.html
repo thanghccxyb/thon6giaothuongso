@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#0757a8" />
+<meta name="description" content="Landing page Giao thương số Thôn 6 – ứng dụng công nghệ số trong sản xuất, kinh doanh." />
+<title>Giao thương số Thôn 6</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div class="topbar"><div class="container"><span>THÔN 6 – MÔ HÌNH THÔN SỐ</span><span>Ứng dụng công nghệ số trong sản xuất, kinh doanh</span></div></div>
+<nav><div class="container navinner"><a href="#top" class="brand"><span class="logo">T6</span><span>Giao thương số Thôn 6</span></a><div class="links"><a href="#sanpham">Sản phẩm</a><a href="#hokinhdoanh">Hộ kinh doanh</a><a href="#qr">QR & thanh toán</a><a href="#huongdan">Hướng dẫn</a></div><a class="btn btn-primary" href="#hokinhdoanh">Khám phá</a></div></nav>
+
+<main id="top">
+<section class="hero"><div class="container hero-grid">
+  <div>
+    <span class="eyebrow">● Nền tảng giao thương số cấp thôn</span>
+    <h1>Đưa sản phẩm địa phương lên môi trường số.</h1>
+    <p>Một landing page đơn giản để người dân giới thiệu sản phẩm, kết nối người mua, nhận đơn qua Zalo và thanh toán bằng QR – phù hợp với hộ sản xuất, kinh doanh quy mô nhỏ.</p>
+    <div class="hero-actions"><a class="btn btn-primary" href="#sanpham">Xem sản phẩm</a><a class="btn btn-outline" href="#huongdan">Xem cách tham gia</a></div>
+  </div>
+  <div class="hero-card">
+    <div class="title">Trạng thái mô hình Thôn 6</div>
+    <div class="metric"><span>Thanh toán số của hộ/CSKD</span><b>100%</b></div>
+    <div class="metric"><span>Ứng dụng số trong SXKD</span><b>01 loại hình</b></div>
+    <div class="metric"><span>Mục tiêu mức thông minh</span><b>≥ 04 loại hình</b></div>
+    <div class="metric"><span>Kênh kết nối</span><b>Zalo / QR / Sàn số</b></div>
+  </div>
+</div></section>
+
+<section id="sanpham"><div class="container">
+  <div class="section-head"><div><h2>Sản phẩm & dịch vụ nổi bật</h2><p>Trang này dành cho các hộ nhỏ lẻ. Mỗi sản phẩm chỉ cần thông tin ngắn gọn, hình ảnh, cách liên hệ và cách đặt hàng.</p></div></div>
+  <div class="grid-3" id="productGrid"></div>
+  <div class="banner"><div><strong>Chưa có danh mục sản phẩm cụ thể?</strong><div>Có thể bắt đầu bằng 5–10 sản phẩm/hộ tiêu biểu, sau đó cập nhật dần.</div></div><a class="btn btn-primary" href="#hokinhdoanh">Thêm hộ kinh doanh</a></div>
+</div></section>
+
+<section style="background:#eef6fd"><div class="container feature">
+  <div class="feature-box" id="qr"><h3>QR để mua – QR để kết nối</h3><p>Mỗi hộ có một QR riêng. QR có thể dẫn tới thông tin hộ, sản phẩm, số điện thoại, Zalo hoặc mã thanh toán ngân hàng.</p><div style="margin-top:20px;padding:18px;border:1px dashed rgba(255,255,255,.55);border-radius:16px;text-align:center;font-weight:800">VÙNG HIỂN THỊ QR HỘ KINH DOANH</div></div>
+  <div class="steps" id="huongdan">
+    <div class="step"><div class="stepno">1</div><div><b>Chụp sản phẩm</b><div>Ảnh rõ, tên sản phẩm, giá tham khảo và thông tin liên hệ.</div></div></div>
+    <div class="step"><div class="stepno">2</div><div><b>Tạo trang hộ</b><div>Đưa thông tin lên landing page hoặc biểu mẫu quản lý chung của thôn.</div></div></div>
+    <div class="step"><div class="stepno">3</div><div><b>Gắn QR</b><div>QR giới thiệu sản phẩm hoặc QR thanh toán được đặt tại điểm bán.</div></div></div>
+    <div class="step"><div class="stepno">4</div><div><b>Nhận đơn qua Zalo</b><div>Người mua xem sản phẩm, liên hệ, đặt hàng và thanh toán thuận tiện.</div></div></div>
+  </div>
+</div></section>
+
+<section id="hokinhdoanh"><div class="container biz">
+  <div>
+    <div class="section-head"><div><h2>Hộ sản xuất, kinh doanh</h2><p>Danh mục này nên được cập nhật từ dữ liệu thực tế của thôn, không nhập số liệu ước đoán.</p></div></div>
+    <div class="search"><input id="q" type="search" placeholder="Tìm theo tên hộ, sản phẩm, dịch vụ..." /></div>
+    <div class="list" id="businessList"></div>
+  </div>
+  <div class="card"><h3>Cấu trúc dữ liệu nên quản lý</h3><p>Chỉ cần 8 trường thông tin là đủ để vận hành phiên bản đầu tiên:</p><ol style="padding-left:20px;color:#5d7184"><li>Tên hộ / cơ sở</li><li>Sản phẩm hoặc dịch vụ</li><li>Ảnh sản phẩm</li><li>Giá tham khảo</li><li>Số điện thoại</li><li>Link Zalo / Facebook</li><li>Địa chỉ / vị trí</li><li>QR giới thiệu hoặc QR thanh toán</li></ol><div class="placeholder">Mẹo: ban đầu nên dùng Google Sheet/Excel làm nguồn dữ liệu. Landing page chỉ hiển thị dữ liệu đã được xác nhận.</div></div>
+</div></section>
+
+<section style="padding-top:20px"><div class="container"><div class="grid-4">
+  <div class="card"><div class="icon">01</div><h3>Đơn giản</h3><p>Không yêu cầu hộ dân phải biết kỹ thuật phức tạp.</p></div>
+  <div class="card"><div class="icon">02</div><h3>Chi phí thấp</h3><p>Có thể triển khai từ Zalo, QR và trang web một trang.</p></div>
+  <div class="card"><div class="icon">03</div><h3>Dễ chứng minh</h3><p>Có thể lưu danh sách hộ, ảnh sản phẩm, QR và lịch sử cập nhật.</p></div>
+  <div class="card"><div class="icon">04</div><h3>Dễ nhân rộng</h3><p>Cùng một mẫu có thể áp dụng cho các thôn khác.</p></div>
+</div></div></section>
+</main>
+
+<footer><div class="container">
+  <div class="footgrid"><div><h4>Giao thương số Thôn 6</h4><p>Landing page mẫu cho tiêu chí ứng dụng công nghệ số trong sản xuất, kinh doanh.</p></div><div><h4>Kênh kết nối</h4><p>Nhóm Zalo cộng đồng</p><p>Facebook / Zalo OA</p><p>QR giới thiệu sản phẩm</p></div><div><h4>Quản trị</h4><p>UBND xã / Ban phát triển thôn</p><p>Tổ Công nghệ số cộng đồng</p><p>Đơn vị hỗ trợ công nghệ</p></div></div>
+  <div class="copyright">Phiên bản mẫu – các tên hộ, sản phẩm, ảnh, giá và liên kết cần được thay bằng dữ liệu thực tế trước khi công khai.</div>
+</div></footer>
+
+
+<script src="js/app.js" defer></script>
+</body>
+</html>

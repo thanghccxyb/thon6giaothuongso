@@ -1,0 +1,74 @@
+{
+  "site": {
+    "name": "Giao thương số Thôn 6",
+    "village": "Thôn 6",
+    "tagline": "Ứng dụng công nghệ số trong sản xuất, kinh doanh",
+    "status": {
+      "digitalPayments": "100%",
+      "digitalBusiness": "01 loại hình",
+      "smartTarget": "≥ 04 loại hình",
+      "channels": "Zalo / QR / Sàn số"
+    }
+  },
+  "products": [
+    {
+      "id": "sp-001",
+      "code": "NS",
+      "tag": "Nông sản",
+      "name": "Nông sản địa phương",
+      "description": "Sản phẩm mẫu – thay bằng sản phẩm thực tế của hộ dân.",
+      "location": "Thôn 6",
+      "channel": "Zalo",
+      "contactLabel": "Liên hệ",
+      "contactUrl": "#hokinhdoanh",
+      "qrLabel": "Xem QR"
+    },
+    {
+      "id": "sp-002",
+      "code": "DV",
+      "tag": "Dịch vụ",
+      "name": "Dịch vụ hộ gia đình",
+      "description": "Mẫu hiển thị dành cho các hộ kinh doanh dịch vụ nhỏ lẻ.",
+      "location": "Thôn 6",
+      "channel": "Điện thoại",
+      "contactLabel": "Liên hệ",
+      "contactUrl": "#hokinhdoanh",
+      "qrLabel": "Xem QR"
+    },
+    {
+      "id": "sp-003",
+      "code": "OC",
+      "tag": "Đặc sản",
+      "name": "Sản phẩm OCOP / đặc sản",
+      "description": "Mẫu hiển thị – chỉ cập nhật khi có sản phẩm thực tế và thông tin đã xác nhận.",
+      "location": "Thôn 6",
+      "channel": "Đặt hàng",
+      "contactLabel": "Liên hệ",
+      "contactUrl": "#hokinhdoanh",
+      "qrLabel": "Xem QR"
+    }
+  ],
+  "businesses": [
+    {
+      "id": "ho-001",
+      "name": "Hộ sản xuất mẫu 01",
+      "category": "Nông sản địa phương",
+      "channels": "Zalo/điện thoại",
+      "status": "Đang cập nhật"
+    },
+    {
+      "id": "ho-002",
+      "name": "Hộ kinh doanh mẫu 02",
+      "category": "Tạp hóa / dịch vụ",
+      "channels": "QR thanh toán",
+      "status": "Đang cập nhật"
+    },
+    {
+      "id": "ho-003",
+      "name": "Hộ sản xuất mẫu 03",
+      "category": "Sản phẩm địa phương",
+      "channels": "Đặt hàng qua Zalo",
+      "status": "Đang cập nhật"
+    }
+  ]
+}
